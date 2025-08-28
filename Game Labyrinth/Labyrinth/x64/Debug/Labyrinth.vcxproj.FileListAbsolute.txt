@@ -1,0 +1,3 @@
+C:\Users\user\Game Labyrinth\Labyrinth\Game Labyrinth\Labyrinth\x64\Debug\Labyrinth.vcxproj.AssemblyReference.cache
+C:\Users\user\Game Labyrinth\Labyrinth\Game Labyrinth\Labyrinth\x64\Debug\Labyrinth.Form1.resources
+C:\Users\user\Game Labyrinth\Labyrinth\Game Labyrinth\Labyrinth\x64\Debug\Labyrinth.vcxproj.GenerateResource.cache
