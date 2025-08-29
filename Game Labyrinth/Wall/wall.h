@@ -1,6 +1,9 @@
 #pragma once
-#include "object.h"
+#include "C:/Users/user/Game Labyrinth/Labyrinth/Game Labyrinth/Object/object.h"
 
-class Wall : public Object {
-
+class Wall : public GameObject {
+public:
+    Wall();
+    Wall(const int, const int);
+    Wall(const Wall&) = default;
 };

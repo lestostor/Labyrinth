@@ -1,7 +1,12 @@
 #pragma once
-#include "object.h"
+#include "C:/Users/user/Game Labyrinth/Labyrinth/Game Labyrinth/Object/object.h"
 
-class Teleport : public Object {
-    int other_x;
-    int other_y;
+class Teleport : public GameObject {
+    int _other_x;
+    int _other_y;
+
+public:
+    Teleport();
+    Teleport(const int, const int, const int, const int);
+    Teleport(const Teleport&) = default;
 };

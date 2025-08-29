@@ -1,9 +1,9 @@
 #pragma once
-#include "tvector.h"
-#include "object.h"
+#include "C:\Users\user\Game Labyrinth\Labyrinth\Game Labyrinth\TVector\tvector.h"
+#include "C:\Users\user\Game Labyrinth\Labyrinth\Game Labyrinth\Object\object.h"
 
 class Map {
-    int Width;
-    int Height;
-    TVector<Object> objects;
+    int _width;
+    int _height;
+    TVector<GameObject> _objects;
 };

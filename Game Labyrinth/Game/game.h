@@ -1,13 +1,12 @@
 #pragma once
-#include "character.h"
-#include "map.h"
-#include "object.h"
-#include "teleport.h"
-#include "tvector.h"
-#include "wall.h"
+#include "..\Character\character.h"
+#include "..\Map\map.h"
+#include "..\Teleport\teleport.h"
+#include "..\TVector\tvector.h"
+#include "..\Wall\wall.h"
 
 class Game {
-    Map map;
-    Character character;
-    TVector<Teleport> teleports;
+    Map _map;
+    Character _character;
+    TVector<Teleport> _teleports;
 };

@@ -1,4 +1,5 @@
 #pragma once
+#include "game.h"
 
 namespace CppCLRWinFormsProject {
 
@@ -54,7 +55,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(810, 489);
+			this->ClientSize = System::Drawing::Size(1013, 622);
 			this->Name = L"Form1";
 			this->Text = L"Form1";
 			this->ResumeLayout(false);
